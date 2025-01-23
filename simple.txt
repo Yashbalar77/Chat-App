@@ -1,0 +1,20 @@
+Here we are using clerk
+clerk is used for authentication, and it makes so easy here we get set up code
+
+middleware se kya hoga aapki koi bhi request hai vo middleware ke through jaayegi aur aap yahape control kar 
+sakte ho ki kaunse routes protected hoge
+Note : jo mera middleware hai usko bolunga ki koi bhi mera route mera nahi dikhna chahiye bina authentication ke
+       user ko login karne ki jarurat padegi mere saare pages dekhne ke liye
+
+stream : yeh ek aisi service hai jo aapko help karegi ek chat app banane main through api's, agar aap socketio
+         se chat-app banaoge toh aapko dikkat hogi ki aapko sab kuch khudse handle karna padega yaha sab kuch 
+        khudse nahi karna yeh bohot easy hai aur components vagera sab kuch provide karta hai 
+
+Note: aapke application main kisine bhi signup kiya aap backend ke through ek user banaoge ek baar user 
+banane ke baad user id assign hogi id assign hone ke baad aapka user application pe chat kar sakta hai
+jab bhi user koi sign up kare toh vo register ho jaaye as a new user
+
+webhooks : jab bhi ek user banega clerk ki sahayata se toh app log chahte ho ki uski information aapko dedi jaaye, but kahapar rout.js par dedi jaaye aur route.js ko chalane ke baad user stream main register hoga
+
+ngrock : yeh kya kehta hai ki tum iss par  (public_url) https://95dc-2409-4081-2d92-5bbc-f045-1634-19b5-be17.ngrok-free.app
+request maaro main tumhare iss localhost:3000 par direct kar doonga
